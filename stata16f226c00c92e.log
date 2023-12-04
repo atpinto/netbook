@@ -1,0 +1,7 @@
+Exception in thread "Thread-1" java.time.format.DateTimeParseException: Text '28Oct.2022' could not be parsed at index 5
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2052)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1954)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:430)
+	at com.stata.plugins.announcements.Announcement.hasPassedStartDelay(Announcement.java:117)
+	at com.stata.plugins.announcements.Announcement.lambda$doBackgroundStartupJob$1(Announcement.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:833)

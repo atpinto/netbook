@@ -10,12 +10,12 @@ book:
     - intro.qmd
     - summary.qmd
     - references.qmd
-
+  downloads: [pdf, epub]
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: lux
   pdf:
     documentclass: scrreprt
 
