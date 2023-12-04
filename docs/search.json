@@ -4,6 +4,27 @@
     "href": "index.html",
     "title": "Book1",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\n\n\nsysuse auto\nsummarize\n\nException in thread \"Thread-1\" java.time.format.DateTimeParseException: Text '28Oct.2022' could not be parsed at inde   at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2052)\n    at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1954)\n    at java.base/java.time.LocalDate.parse(LocalDate.java:430)\n    at com.stata.plugins.announcements.Announcement.hasPassedStartDelay(Announcement.java:117)\n    at com.stata.plugins.announcements.Announcement.lambda$doBackgroundStartupJob$1(Announcement.java:64)\n    at java.base/java.lang.Thread.run(Thread.java:833)"
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\n#```{stata engine.path = “/Applications/Stata/StataBE.app/Contents/MacOS/StataBE”}\n#sysuse auto summarize #```"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   }
 ]
