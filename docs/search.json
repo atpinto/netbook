@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Book1",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\n\n\nsysuse auto\nsummarize\n\nException in thread \"Thread-1\" java.time.format.DateTimeParseException: Text '28Oct.2022' could not be parsed at inde   at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2052)\n    at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1954)\n    at java.base/java.time.LocalDate.parse(LocalDate.java:430)\n    at com.stata.plugins.announcements.Announcement.hasPassedStartDelay(Announcement.java:117)\n    at com.stata.plugins.announcements.Announcement.lambda$doBackgroundStartupJob$1(Announcement.java:64)\n    at java.base/java.lang.Thread.run(Thread.java:833)"
+  }
+]

@@ -8,8 +8,8 @@ To learn more about Quarto books visit <https://quarto.org/docs/books>.
 1 + 1
 ```
 
-```{stata engine.path = "/Applications/Stata/StataBE.app/Contents/MacOS/StataBE"}
+#```{stata engine.path = "/Applications/Stata/StataBE.app/Contents/MacOS/StataBE"}
 
-sysuse auto
+#sysuse auto
 summarize
-```
+#```
