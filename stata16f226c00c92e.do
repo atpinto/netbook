@@ -1,3 +1,0 @@
-
-sysuse auto
-summarize
